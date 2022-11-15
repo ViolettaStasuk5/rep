@@ -6,6 +6,7 @@
 <body>
 <header>
 	<div class="menu">
+		<img src="img/logo.jpg" alt="logo">
                 <a href="about_us.blade.php">О нас</a>
                 <a href="catalog.blade.php">Каталог</a>
                 <a href="product.blade.php">Товар</a>
@@ -16,5 +17,11 @@
             </div>
         </div>
 </header>
+<div class="content">
+	<div class="about_us">
+		<h1>Funny Comics Land</h1>
+
+    </div>
+</div>
 </body>
 </html>
