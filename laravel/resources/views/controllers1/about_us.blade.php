@@ -13,7 +13,7 @@
                 <a href="where_can_I_find_us.blade.php">Где нас найти?</a>
             <div class="auth-register">
                 <a href="auth.blade.php">Войти</a>
-                <a href="register.blade.php">Зарегистрироваться</a>
+                <a href="register.blade.php">Зарегисl;lтрироваться</a>
             </div>
         </div>
 </header>
