@@ -20,5 +20,6 @@ public function array() {
 }
 public function city() {
 	return view('controllers1.test', ['city'=>'Омск']);
+	
 }
 }
