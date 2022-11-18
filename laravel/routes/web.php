@@ -29,4 +29,6 @@ Route::get('test/array', [App\Http\Controllers\Controllers1::class, 'array']);
 Route::get('product', [App\Http\Controllers\TestController:: class, "ShowProduct"]);
 Route::get('products/{id}', [App\Http\Controllers\TestController:: class, "ShowOne"]); 
 Route::get('test/city', [App\Http\Controllers\Controllers1::class, 'city']);
+//Учебная практика
+Route::get('/test', [App\Http\Controllers\Controllers1::class, 'show']);
 ?>
