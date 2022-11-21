@@ -7,7 +7,7 @@
 <body>
 <header>
 	<div class="menu">
-		<img src="img/logo.jpg">
+		<img src="/laravel/public/img/logo.jpg">
                 <a href="about_us.blade.php">О нас</a>
                 <a href="catalog.blade.php">Каталог</a>
                 <a href="product.blade.php">Товар</a>
