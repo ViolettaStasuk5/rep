@@ -22,7 +22,16 @@ public function city() {
 	return view('controllers1.test', ['city'=>'Омск']);
 	
 }*/
-public function show(){
+public function about_us(){
 	return view ('controllers1.about_us');
     }
+public function register(){
+		return view('controllers1.register');
+	}
+public function auth(){
+	return view('controllers1.auth');
+}
+public function where_can_I_find_us(){
+	return view('controllers1.where_can_I_find_us');
+}
 }

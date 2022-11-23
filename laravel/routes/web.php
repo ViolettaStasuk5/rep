@@ -30,5 +30,8 @@ Route::get('product', [App\Http\Controllers\TestController:: class, "ShowProduct
 Route::get('products/{id}', [App\Http\Controllers\TestController:: class, "ShowOne"]); 
 Route::get('test/city', [App\Http\Controllers\Controllers1::class, 'city']);
 //Учебная практика
-Route::get('/test', [App\Http\Controllers\Controllers1::class, 'show']);
+Route::get('/about_us', [App\Http\Controllers\Controllers1::class, 'about_us']);
+Route::get('/register', [App\Http\Controllers\Controllers1::class, 'register']);
+Route::get('/auth', [App\Http\Controllers\Controllers1::class, 'auth']);
+Route::get('/where_can_I_find_us', [App\Http\Controllers\Controllers1::class, 'where_can_I_find_us']);
 ?>
