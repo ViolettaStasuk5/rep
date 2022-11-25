@@ -106,7 +106,7 @@
   width:500%;
   line-height:0}
 #slider_bl article{
-  width: 20%;
+  width: 100%;
   height: 100%;
   float:left;
   margin-top: 100px;
@@ -114,7 +114,7 @@
 }
 #slider_bl article img{
   width: 960px;
-  height: 640px;}
+  height: 400px;}
 #slider_bl .slider-prev-next-control{
   height:50px;
   position:absolute;
@@ -130,7 +130,7 @@
     width:40px;
     height:40px;
     border-radius:50%;
-    background:#fff;
+    background:black;
     opacity:.7}
     #slider_bl .slider-prev-next-control label:hover{opacity:1}
 #slider_bl .slider-dot-control{
@@ -185,7 +185,7 @@
         border-radius:5px;
         box-shadow:1px 1px 4px #666;
         background:#fff;
-        background:#fcfff4;
+        background:black;
         -webkit-transform:translateZ(0);
         -moz-transform:translateZ(0);
         -ms-transform:translateZ(0);
