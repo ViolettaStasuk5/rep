@@ -10,13 +10,13 @@
 <body>
 <header>
 	<div class="menu">
-		<img src="img/logo.JPG">
+    <img src="img/lg.JPG">
                 <a href="about_us">О нас</a>
                 <a href="catalog">Каталог</a>
                 <a href="product">Товар</a>
                 <a href="where_can_I_find_us">Где нас найти?</a>
                 <a href="auth">Войти</a>
-                <a href="register">Зарегистрироваться</a>
+                <a href="register">Зарегистрироваться</a> 
         </div>
 </header>
     <div class="where">

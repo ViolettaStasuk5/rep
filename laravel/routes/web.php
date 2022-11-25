@@ -34,4 +34,6 @@ Route::get('/about_us', [App\Http\Controllers\Controllers1::class, 'about_us']);
 Route::get('/register', [App\Http\Controllers\Controllers1::class, 'register']);
 Route::get('/auth', [App\Http\Controllers\Controllers1::class, 'auth']);
 Route::get('/where_can_I_find_us', [App\Http\Controllers\Controllers1::class, 'where_can_I_find_us']);
+Route::get('/catalog',[App\Http\Controllers\Controllers1::class, 'catalog']);
+Route::get('/product',[App\Http\Controllers\Controllers1::class, 'product']);
 ?>

@@ -2,18 +2,18 @@
 <html>
 <head>
 	<title>О нас</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <header>
 	<div class="menu">
-		<img src="img/logo.JPG">
+		<img src="img/lg.JPG">
                 <a href="about_us">О нас</a>
                 <a href="catalog">Каталог</a>
                 <a href="product">Товар</a>
                 <a href="where_can_I_find_us">Где нас найти?</a>
                 <a href="auth">Войти</a>
-                <a href="register">Зарегистрироваться</a>
+                <a href="register">Зарегистрироваться</a> 
         </div>
 </header>
 <section id="slider_bl">
@@ -26,22 +26,22 @@
 	    <div class=inner>
 	      <article>
 	        <div class="info top-left">
-	          <h3>Новинки компании</h3></div>
+	          <h3></h3></div>
 			  <img src="img/banner1.jpg" title="бонус" alt="бонус">
 	      </article>
 	      <article>
 	        <div class="info bottom-right">
-	          <h3>Новинки компании</h3></div>
+	          <h3></h3></div>
 	        <img src="img/banner2.jpg" />
 	      </article>
 	      <article>
 	        <div class="info bottom-left">
-	          <h3>Новинки компании</h3></div>
+	          <h3></h3></div>
 	        <img src="img/banner3.png" />
 	      </article>
 	      <article>
 	        <div class="info top-right">
-	          <h3>Новинки компании</h3></div>
+	          <h3></h3></div>
 	        <img src="img/banner4.png" />
 	      </article>
 	    </div>
@@ -60,5 +60,14 @@
 	  </div>
 	</div>
 </section>
+@foreach ($arr as $elem)
+<p>{{$elem->Name}}</p>
+<p>{{$elem->Detail}}</p>
+<p>{{$elem->Price}}</p>
+<p>{{$elem->Years}}</p>
+<img src="{{$elem->Image}}">
+<p>{{$elem->Page}}</p>
+<p>{{$elem->Category}}</p>
+@endforeach
 </body>
 </html>

@@ -1,6 +1,7 @@
 <?php 
 namespace App\Http\Controllers; 
-use App\Http\Controllers\Controller; 
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB; 
 class Controllers1 extends Controller
 { 
 		/*public function show() { 
@@ -33,5 +34,15 @@ public function auth(){
 }
 public function where_can_I_find_us(){
 	return view('controllers1.where_can_I_find_us');
+}
+public function catalog(){
+	return view('controllers1.catalog');
+}
+public function product(){
+	return view('controllers1.product');
+}
+public function catalog1(){
+	$t=DB::table("comics")->get();
+	return view("controllers1.catalog", ['arr'=>$t]);
 }
 }
