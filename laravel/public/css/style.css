@@ -113,8 +113,8 @@
   position:relative;
 }
 #slider_bl article img{
-  width:400px;
-  height: 600px;}
+  width: 960px;
+  height: 640px;}
 #slider_bl .slider-prev-next-control{
   height:50px;
   position:absolute;

@@ -27,22 +27,22 @@
 	      <article>
 	        <div class="info top-left">
 	          <h3>Новинки компании</h3></div>
-	        <img src="img/1.jpg" />
+			  <img src="img/banner1.jpg" title="бонус" alt="бонус">
 	      </article>
 	      <article>
 	        <div class="info bottom-right">
 	          <h3>Новинки компании</h3></div>
-	        <img src="img/22.jpg" />
+	        <img src="img/banner2.jpg" />
 	      </article>
 	      <article>
 	        <div class="info bottom-left">
 	          <h3>Новинки компании</h3></div>
-	        <img src="img/3.jpg" />
+	        <img src="img/banner3.png" />
 	      </article>
 	      <article>
 	        <div class="info top-right">
 	          <h3>Новинки компании</h3></div>
-	        <img src="img/4.jpg" />
+	        <img src="img/banner4.png" />
 	      </article>
 	    </div>
 	  </div>
