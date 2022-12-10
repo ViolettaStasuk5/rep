@@ -36,13 +36,19 @@ public function where_can_I_find_us(){
 	return view('controllers1.where_can_I_find_us');
 }
 public function catalog(){
-	return view('controllers1.catalog');
+	$arr = DB::table('comics')->get();
+	return view('controllers1.catalog', ['arr' => $arr]);
 }
 public function product(){
-	return view('controllers1.product');
+	$arr = DB::table('comics')->get();
+	return view('controllers1.product',['arr' => $arr]);
 }
 public function catalog1(){
 	$t=DB::table("comics")->get();
 	return view("controllers1.catalog", ['arr'=>$t]);
+}
+public function comics($id) {
+	$arr = DB::table('comics')->where('id', $id)->get();
+	return($arr);
 }
 }

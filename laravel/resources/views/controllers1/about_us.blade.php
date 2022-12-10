@@ -60,14 +60,6 @@
 	  </div>
 	</div>
 </section>
-@foreach ($arr as $elem)
-<p>{{$elem->Name}}</p>
-<p>{{$elem->Detail}}</p>
-<p>{{$elem->Price}}</p>
-<p>{{$elem->Years}}</p>
-<img src="{{$elem->Image}}">
-<p>{{$elem->Page}}</p>
-<p>{{$elem->Category}}</p>
-@endforeach
+
 </body>
 </html>
