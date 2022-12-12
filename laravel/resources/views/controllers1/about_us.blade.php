@@ -60,6 +60,21 @@
 	  </div>
 	</div>
 </section>
-
+<h3>Свежий подход к покупкам. Выберайте комиксы в Funny Comics Land. Всегда рады вас видеть!</h3>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<footer>
+    <div class="menu1">
+                <a href="about_us">О нас</a>
+                <a href="catalog">Каталог</a>
+                <a href="product">Товар</a>
+                <a href="where_can_I_find_us">Где нас найти?</a>
+                <a href="auth">Войти</a>
+                <a href="register">Зарегистрироваться</a> 
+</div>
+<div class="menu2">
+<h3>Funny Comics Land</h3>
+<p>8 (950) 555 44-33</p>
+</div>
+</footer>
 </body>
 </html>
